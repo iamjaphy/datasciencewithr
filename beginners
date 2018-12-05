@@ -1,0 +1,6 @@
+#A matrix is a 2-dimensional array. It is created using the matrix function.
+first.matrix <- matrix(1:12, ncol = 4)
+first.matrix
+
+second.matrix <- matrix(1:12, ncol = 4, byrow = TRUE)
+second.matrix
